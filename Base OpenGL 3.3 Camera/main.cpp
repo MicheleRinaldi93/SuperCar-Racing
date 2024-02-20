@@ -1212,10 +1212,10 @@ int main()
 			renderRaceTrack(raceOval, myShader);
 
 			/////////// PARTICELLARI MOTORE ///////////////////
-			initShader(myShader);
+			/*initShader(myShader);
 			particelle->setShaders(myShader);
 			particelle->addSmokeGenerator(lastFrame, car.position+vec3(0,0,-1), car.position + vec3(0, 1, 0));
-			particelle->Draw(lastFrame, vec3(0.2f, 0.4f, 0.2f));
+			particelle->Draw(lastFrame, vec3(0.2f, 0.4f, 0.2f));*/
 			
 
 			glfwSwapBuffers(window);
