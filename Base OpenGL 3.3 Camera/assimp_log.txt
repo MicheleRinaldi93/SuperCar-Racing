@@ -1,0 +1,43 @@
+Info,  T11444: this is my info-call
+Info,  T11444: App fired!
+Info,  T11444: Load object/kart/kart_model_no_outline.fbx
+Debug, T11444: Assimp 3.2.0 amd64 msvc noboost shared singlethreaded
+Info,  T11444: Found a matching importer for this file format
+Info,  T11444: Import root directory is 'object/kart\'
+Warn,  T11444: FBX-DOM: unsupported, newer format version, supported are only FBX 2011, FBX 2012 and FBX 2013, trying to read it nevertheless
+Warn,  T11444: FBX-DOM (TOK_KEY, offset 0x1cc27) shading mode not recognized: Phong
+Warn,  T11444: FBX-DOM (TOK_KEY, offset 0x1cf27) shading mode not recognized: Phong
+Info,  T11444: Entering post processing pipeline
+Debug, T11444: RemoveRedundantMatsProcess begin
+Debug, T11444: RemoveRedundantMatsProcess finished 
+Debug, T11444: FindDegeneratesProcess begin
+Debug, T11444: FindDegeneratesProcess finished
+Debug, T11444: GenUVCoordsProcess begin
+Debug, T11444: GenUVCoordsProcess finished
+Debug, T11444: TriangulateProcess begin
+Debug, T11444: TriangulateProcess finished. There was nothing to be done.
+Debug, T11444: SortByPTypeProcess begin
+Info,  T11444: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Debug, T11444: SortByPTypeProcess finished
+Debug, T11444: FindInvalidDataProcess begin
+Debug, T11444: FindInvalidDataProcess finished. Everything seems to be OK.
+Debug, T11444: SplitLargeMeshesProcess_Triangle begin
+Debug, T11444: SplitLargeMeshesProcess_Triangle finished. There was nothing to do
+Debug, T11444: Generate spatially-sorted vertex cache
+Debug, T11444: GenVertexNormalsProcess begin
+Debug, T11444: GenVertexNormalsProcess finished. Normals are already there
+Debug, T11444: CalcTangentsProcess begin
+Info,  T11444: CalcTangentsProcess finished. Tangents have been calculated
+Debug, T11444: JoinVerticesProcess begin
+Debug, T11444: Mesh 0 (Plane.011) | Verts in: 7056 out: 2329 | ~66.9926%
+Info,  T11444: JoinVerticesProcess finished | Verts in: 7056 out: 2329 | ~67.0%
+Debug, T11444: SplitLargeMeshesProcess_Vertex begin
+Debug, T11444: SplitLargeMeshesProcess_Vertex finished. There was nothing to do
+Debug, T11444: LimitBoneWeightsProcess begin
+Debug, T11444: LimitBoneWeightsProcess end
+Debug, T11444: ImproveCacheLocalityProcess begin
+Debug, T11444: Mesh 0 | ACMR in: 2.244473 out: 1.097789 | ~51.1%
+Info,  T11444: Cache relevant are 1 meshes (2352 faces). Average output ACMR is 1.097789
+Debug, T11444: ImproveCacheLocalityProcess finished. 
+Info,  T11444: Leaving post processing pipeline
+Info,  T11444: drawing objects

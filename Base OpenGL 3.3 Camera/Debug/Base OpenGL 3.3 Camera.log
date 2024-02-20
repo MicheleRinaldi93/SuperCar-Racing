@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\ugo\source\repos\base opengl 3.3 camera\base opengl 3.3 camera\shader_s.h(53): warning C4101: 'infoLog': unreferenced local variable
+c:\users\ugo\source\repos\base opengl 3.3 camera\base opengl 3.3 camera\shader_s.h(52): warning C4101: 'success': unreferenced local variable
+  Base OpenGL 3.3 Camera.vcxproj -> c:\users\ugo\Source\Repos\Base OpenGL 3.3 Camera\Debug\Base OpenGL 3.3 Camera.exe

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{24b6cdd6-f8bc-4b20-83df-2c1a0f274c27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="shader\light_and_shadow.fs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\light_and_shadow.vs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\shadow_mapping_depth.fs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\shadow_mapping_depth.vs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\car_select.fs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\car_select.vs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\fragment_shader.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\vertex_shader.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\point_light.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\point_light.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\blending.fs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\blending.vs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\skybox.fs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\skybox.vs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\model_loading.fs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="shader\model_loading.vs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="light.fs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="light.vs">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader_s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="skyBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="car.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fixed_camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="billboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="carselect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="terrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kdtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triangoloPt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drawableObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
